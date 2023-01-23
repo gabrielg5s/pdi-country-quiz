@@ -1,6 +1,4 @@
 <template>
-  <div class="home">    
-  </div>
   <div>
       <select
       v-model="countrySelect"
@@ -13,8 +11,7 @@
   <div >
       <img v-if="descriptionCountry" alt="Country Flag" :src="'' + descriptionCountry[0].flags.png"/>
   </div>
-  {{ listCountries }}
-  
+  {{ listCountries }}  
   
 </template>
 
